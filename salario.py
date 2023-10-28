@@ -13,7 +13,7 @@ def verifica_salario(a):
                 print('\nO valor digitado deve ser positivo. Tente Novamente.')
                 salario_verificado = float(input(f'Digite o salário do profissional {a} ou digite "0" para encerrar o programa:\n' ))
             break
-        except:
+        except ValueError:
             print('\nO valor inserido foi inválido, digite apenas números positivos. Tente novamente.')
     return salario_verificado
 

@@ -18,6 +18,6 @@ primeiro_termo = -(razao*(posicao_primeiro-1) - t1)
 print(f'A razão é {int(razao)}')
 
 for i in range (10):
-    sequencia.append(primeiro_termo+((i)*razao))
+    sequencia.append(primeiro_termo+((i)*razao))    
 
 print("E seus 10 primeiros termos são:",sequencia)
